@@ -1,0 +1,21 @@
+blog tracker app:
+Github: https://github.com/sundershyam04/Blog-tracker-App.git
+-----------------------------------------writeup------------------------------------
+
+1) DAl layer is created using code first approach entity framework 
+
+2) USed Repository pattern for accesing database
+
+3) created repository class to make a abstracted layer for database access
+
+4) Then created the webapi project to check with DAl
+
+5) created admin,employee,Blog apicontroller to fetch data and perform CRUD from database
+
+6)tested the operation of apicontroller using POSTMAN
+
+7) created MVC project(with Webapi.client package) using http client in controller to get data from webapi and to display it in the webpage
+
+8)Set the startup project settings in order dal -> webapi->webapiclient
+
+9) checked the project with local and azure db for correct functionality
